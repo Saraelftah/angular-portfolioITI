@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './about.scss'
 })
 export class About {
-  fileUrl = 'assets/files/Resume.pdf'
+  fileUrl = 'assets/Resume.pdf'
 
 }

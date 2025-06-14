@@ -1,0 +1,15 @@
+<section class="portfolio">
+    <div class="container">
+
+        <h3>Portfolio</h3>
+
+        <div class="portfolio-items d-flex justify-content-center">
+
+            @for (project of projects; track project) {
+                <div class="portfolio__item">
+                    <a href="#">{{project.name}}</a>
+                </div>  
+            }
+        </div>
+    </div>
+</section>

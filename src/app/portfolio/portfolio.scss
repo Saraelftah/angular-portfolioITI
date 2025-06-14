@@ -1,0 +1,33 @@
+.portfolio{
+    padding: 80px 0;
+
+    .portfolio-items{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .portfolio__item{
+        background-color: #666;
+        width: 30%;
+        height: 200px;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+
+        a {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 24px;
+            transition: 0.5s;
+            &:hover {
+               
+                transform: scale(1.1) translate(-50%, -50%);
+                letter-spacing: 3px;
+            }
+        }
+        
+    }
+}
