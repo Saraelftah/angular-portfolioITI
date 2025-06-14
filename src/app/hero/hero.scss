@@ -1,0 +1,54 @@
+
+
+.header {
+    background-image: url(../../../public/assets/images/header\ bc.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    padding: 150px 0;
+
+    .header-content {
+        color: #fff;
+        margin-bottom: 30px;
+        width: 50%;
+
+        .title {
+            font-size: 70px;
+            line-height: 88px;
+        }
+
+        h3 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+
+    }
+    .header-contact {
+         width: 50%;
+
+        .contactLink {
+            border: 1px solid #fff;
+            padding: 15px 20px;
+            border-radius: 8px;
+            transition: 0.5s;
+            display: inline-block;
+            width: 25%;
+            text-align: center;
+
+            &:hover {
+                cursor: pointer;
+                background-color: #fff;
+                color: #000;
+            }
+        }
+        
+        .icons {
+            margin-top: 20px;
+            gap: 15px;
+            width: 25%;
+            font-size: 20px;
+        }
+    }
+
+
+
+}
